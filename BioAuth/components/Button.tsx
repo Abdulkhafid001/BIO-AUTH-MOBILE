@@ -45,7 +45,6 @@ const styles = StyleSheet.create({
     padding: 3,
   },
   button: {
-    // marginTop: 10,
     borderRadius: 10,
     width: '100%',
     height: '100%',
