@@ -12,7 +12,7 @@ import { useRouter } from "expo-router";
 export default function Index() {
   const router = useRouter();
   const [isBiometricSupported, setIsBiometricSupported] = useState(false);
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(true);
 
   useEffect(() => {
     (async () => {
